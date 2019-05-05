@@ -5,7 +5,7 @@
 
     session_destroy();
 
-    header("Location:/proj-sae/index.php");
+    header("Location:/public_html/index.php");
 
   }
 
@@ -24,12 +24,12 @@
 
 
   if(!isset($_SESSION["logado"])){
-    header("Location:/proj-sae/index.php");
+    header("Location:/public_html/index.php");
     exit();
   }
   
   if($_SESSION["TipoFuncionario"]!="administrador"){
-    header("Location:/proj-sae/index.php");
+    header("Location:/public_html/index.php");
   }
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 	
-	require_once $_SERVER["DOCUMENT_ROOT"]	. "/proj-sae/model/AfirmativaQuestaoModel.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]	. "/public_html/model/AfirmativaQuestaoModel.php";
 
 
 	$afirmativaQuestaoModel = new AfirmativaQuestaoModel();

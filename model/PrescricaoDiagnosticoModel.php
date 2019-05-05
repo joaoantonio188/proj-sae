@@ -1,6 +1,6 @@
 <?php
 	//Obtem o diretório geral do projeto
-	require_once $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/config/BD.php";
+	require_once $_SERVER["DOCUMENT_ROOT"] . "/public_html/config/BD.php";
 
 
 	class PrescricaoDiagnosticoModel{
