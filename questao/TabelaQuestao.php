@@ -1,5 +1,5 @@
 <?php 
-    require_once $_SERVER["DOCUMENT_ROOT"] . "/sae/model/AfirmativaModel.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/model/AfirmativaModel.php";
 
 
 

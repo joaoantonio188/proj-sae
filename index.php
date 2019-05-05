@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"] . "/sae/config/BD.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/config/BD.php";
 
 ?>
 
@@ -76,7 +76,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/sae/config/BD.php";
               </form>
             </div>
           </div>
-          <div class="col-lg-6 login-half-bg d-flex flex-row" style="background:url(/sae/images/back.jpg); background-repeat: no-repeat; ">
+          <div class="col-lg-6 login-half-bg d-flex flex-row" style="background:url(/proj-sae/images/back.jpg); background-repeat: no-repeat; ">
             <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2018  All rights reserved.</p>
           </div>
         </div>

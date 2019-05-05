@@ -1,6 +1,6 @@
 <?php
 	
-	require_once $_SERVER["DOCUMENT_ROOT"]	. "/sae/model/QuestaoModel.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]	. "/proj-sae/model/QuestaoModel.php";
 
 
 	$questaoModel = new QuestaoModel();

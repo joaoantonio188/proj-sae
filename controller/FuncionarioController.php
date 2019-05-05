@@ -1,6 +1,6 @@
 <?php
 	
-	require_once $_SERVER["DOCUMENT_ROOT"]	. "/sae/model/FuncionarioModel.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]	. "/proj-sae/model/FuncionarioModel.php";
 
 
 	$funcionarioModel = new FuncionarioModel();
@@ -48,7 +48,7 @@
 
 		if($usuario == false){
 			echo "<script>alert('Usuário ou senha inválidos'); 
-			location.href='/sae/index.php';</script>";
+			location.href='/proj-sae/index.php';</script>";
 		}else{
 
 			session_start();
@@ -60,10 +60,10 @@
 
 			if($usuario["IdTipoFuncionario"] == 1){
 				$_SESSION["TipoFuncionario"] = "administrador";
-				echo "<script>location.href='/sae/questao/Questao.php'</script>";
+				echo "<script>location.href='/proj-sae/questao/Questao.php'</script>";
 
 			}else{
-				echo "<script>location.href='/sae/index.php'</script>";
+				echo "<script>location.href='/proj-sae/index.php'</script>";
 			}
 
 

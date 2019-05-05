@@ -1,5 +1,5 @@
 <?php 
-    require_once $_SERVER["DOCUMENT_ROOT"] . "/sae/model/PrescricaoModel.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/model/PrescricaoModel.php";
     
 
     $diagnostico = new DiagnosticoModel();

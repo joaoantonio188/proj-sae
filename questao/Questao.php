@@ -1,6 +1,6 @@
 <?php
-include $_SERVER["DOCUMENT_ROOT"] . "/sae/template/header.php";
-require_once $_SERVER["DOCUMENT_ROOT"] . "/sae/model/QuestaoModel.php";
+include $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/template/header.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/proj-sae/model/QuestaoModel.php";
 
 
 ?>
